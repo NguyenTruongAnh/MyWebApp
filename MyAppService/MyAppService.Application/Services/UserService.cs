@@ -1,6 +1,6 @@
 ﻿using MyAppService.Domain.Interfaces.Repositories;
-using MyAppService.Domain.Interfaces.Services;
 using MyAppService.Domain.Entities;
+using MyAppService.Application.Interfaces.Services;
 
 namespace MyAppService.Application.Services
 {

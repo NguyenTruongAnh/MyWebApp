@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyAppService.Domain.Interfaces.Services;
+using MyAppService.Application.Interfaces.Services;
 
 namespace MyAppService.Api.Controllers
 {

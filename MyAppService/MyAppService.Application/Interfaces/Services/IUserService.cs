@@ -1,6 +1,6 @@
 ﻿using MyAppService.Domain.Entities;
 
-namespace MyAppService.Domain.Interfaces.Services
+namespace MyAppService.Application.Interfaces.Services
 {
     public interface IUserService
     {

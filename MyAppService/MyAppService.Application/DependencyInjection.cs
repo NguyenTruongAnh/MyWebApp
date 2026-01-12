@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using MyAppService.Application.Interfaces.Services;
 using MyAppService.Application.Services;
-using MyAppService.Domain.Interfaces.Services;
 
 namespace MyAppService.Application
 {
