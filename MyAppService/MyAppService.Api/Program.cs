@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using MyAppService.Application.Interfaces.Repositories;
-using MyAppService.Application.Interfaces.Services;
+using MyAppService.Domain.Interfaces.Repositories;
+using MyAppService.Domain.Interfaces.Services;
 using MyAppService.Application.Services;
 using MyAppService.Domain.Common;
 using MyAppService.Infrastructure.Data;

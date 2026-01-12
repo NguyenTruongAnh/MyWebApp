@@ -1,4 +1,4 @@
-﻿using MyAppService.Application.Interfaces.Repositories;
+﻿using MyAppService.Domain.Interfaces.Repositories;
 using MyAppService.Infrastructure.Data;
 
 namespace MyAppService.Domain.Common

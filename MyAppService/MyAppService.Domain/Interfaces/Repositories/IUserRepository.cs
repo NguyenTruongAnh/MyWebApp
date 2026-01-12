@@ -1,6 +1,6 @@
 ﻿using MyAppService.Domain.Entities;
 
-namespace MyAppService.Application.Interfaces.Repositories
+namespace MyAppService.Domain.Interfaces.Repositories
 {
     public interface IUserRepository : IBaseRepository<User>
     {

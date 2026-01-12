@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MyAppService.Application.Interfaces.Repositories;
+using MyAppService.Domain.Interfaces.Repositories;
 using MyAppService.Domain.Common;
 using MyAppService.Infrastructure.Data;
 using System.Linq.Expressions;

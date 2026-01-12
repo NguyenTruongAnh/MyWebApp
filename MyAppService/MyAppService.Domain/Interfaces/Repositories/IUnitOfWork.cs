@@ -1,4 +1,4 @@
-﻿namespace MyAppService.Application.Interfaces.Repositories
+﻿namespace MyAppService.Domain.Interfaces.Repositories
 {
     public interface IUnitOfWork : IDisposable
     {

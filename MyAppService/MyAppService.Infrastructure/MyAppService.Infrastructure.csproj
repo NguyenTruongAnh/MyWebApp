@@ -19,7 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-	  <ProjectReference Include="..\MyAppService.Application\MyAppService.Application.csproj" />
 	  <ProjectReference Include="..\MyAppService.Domain\MyAppService.Domain.csproj" />
   </ItemGroup>
 
