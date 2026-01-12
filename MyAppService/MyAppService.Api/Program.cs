@@ -5,6 +5,8 @@ using MyAppService.Application.Services;
 using MyAppService.Domain.Common;
 using MyAppService.Infrastructure.Data;
 using MyAppService.Infrastructure.Repositories;
+using MyAppService.Application;
+using MyAppService.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 var env = builder.Environment.EnvironmentName;
@@ -28,10 +30,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<IUserService, UserService>();
+// Add DI
+builder.Services.AddApplication();
+builder.Services.AddInfrastructure();
 
 // CORS
 builder.Services.AddCors(opt => 
